@@ -1,0 +1,32 @@
+## generic files to ignore
+*~
+*.lock
+*.out
+
+# VIM
+.*.swo
+.*.swp
+tags
+
+# NetBeans
+nbproject
+
+# CVS
+CVS
+.cvsignore
+
+# TextMate
+.#*
+
+# PHP Storm, other java IDE's
+.idea
+# OS X
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+
+# PHP
+vendor
+composer.lock
