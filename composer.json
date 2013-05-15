@@ -12,6 +12,7 @@
   },
   "autoload": {
     "psr-0": {
+      "Example\\": "app/",
       "": "vendor/"
     }
   }
