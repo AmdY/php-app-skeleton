@@ -1,19 +1,19 @@
 {
-  "Name": "AmdY/php-app-skeleton",
-  "authors": [
-    {
-      "name": "Slava Plisko",
-      "email": "pliskovs@gmail.com"
+    "Name": "AmdY/php-app-skeleton",
+    "authors": [
+        {
+            "name": "Slava Plisko",
+            "email": "pliskovs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Example\\": "app/",
+            "": "vendor/"
+        }
     }
-  ],
-  "require": {
-    "php": ">=5.4.0",
-    "phpunit/phpunit": "3.7.*@dev"
-  },
-  "autoload": {
-    "psr-0": {
-      "Example\\": "app/",
-      "": "vendor/"
-    }
-  }
 }

@@ -1,7 +1,8 @@
 <?php
-namespace Example;
 
-class FooTest extends \PHPUnit_Framework_TestCase
+use Example\Foo;
+
+class FooTest extends PHPUnit_Framework_TestCase
 {
     public function testBar()
     {
